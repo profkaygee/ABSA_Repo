@@ -7,6 +7,7 @@ namespace ABSA_Assessment.Interfaces
     public interface IEntryRepository : IDisposable
     {
         MessageResponse AddPhonebookEntry(PhonebookEntryViewModel entry);
-        IList<PhonebookEntryViewModel> SelectPhoneBookEntries(Guid phonebookId);
+        IList<PhonebookEntryViewModel> SelectPhoneBookEntries(int? phonebookId);
+        IList<PhonebookEntryViewModel> SelectSearchedEntries(string phrase);
     }
 }

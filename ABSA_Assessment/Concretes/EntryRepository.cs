@@ -19,7 +19,7 @@ namespace ABSA_Assessment.Concretes
             _connectionString = configuration.GetConnectionString("DefaultConnection");
         }
 
-        public IList<PhonebookEntryViewModel> SelectPhoneBookEntries(Guid phonebookId)
+        public IList<PhonebookEntryViewModel> SelectPhoneBookEntries(int? phonebookId)
         {
             var query = "procSelectPhonebookEntries";
 
@@ -27,7 +27,8 @@ namespace ABSA_Assessment.Concretes
             if (connection.State != ConnectionState.Open)
                 connection.Open();
 
-            var entries = connection.Query<PhonebookEntryViewModel>(query, new {PhonebookID = phonebookId}).ToList();
+            var parameters = new { PhonebookID = phonebookId };
+            var entries = connection.Query<PhonebookEntryViewModel>(query, parameters, commandType: CommandType.StoredProcedure).ToList();
             return entries;
         }
 
@@ -39,12 +40,14 @@ namespace ABSA_Assessment.Concretes
             if (connection.State != ConnectionState.Open)
                 connection.Open();
 
-            int rowsAffected = connection.Query(query).FirstOrDefault();
+            var parameters = new { Name = entry.Name, PhoneNumber = entry.PhoneNumber, PhonebookID = entry.PhonebookId };
+            var rowsAffected = connection.Query(query, parameters, commandType: CommandType.StoredProcedure).FirstOrDefault();
 
-            if (rowsAffected > 0)
+            if (rowsAffected.Rows > 0)
             {
                 return new MessageResponse()
                 {
+                    NewId = Convert.ToInt32(rowsAffected.NewID),
                     SuccessResponse = true,
                     ErrorMessage = "Phone book entry has been added successfully."
                 };
@@ -60,6 +63,19 @@ namespace ABSA_Assessment.Concretes
         public void Dispose()
         {
             GC.Collect();
+        }
+
+        public IList<PhonebookEntryViewModel> SelectSearchedEntries(string phrase)
+        {
+            var query = "procSelectSearchedPhonebookEntries";
+
+            using var connection = new SqlConnection(_connectionString);
+            if (connection.State != ConnectionState.Open)
+                connection.Open();
+
+            var parameters = new { Phrase = phrase };
+            var entries = connection.Query<PhonebookEntryViewModel>(query, parameters, commandType: CommandType.StoredProcedure).ToList();
+            return entries;
         }
     }
 }

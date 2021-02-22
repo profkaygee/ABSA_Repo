@@ -1,21 +1,27 @@
 <header>
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
         <div class="container">
-            <a class="navbar-brand">New Phonebook</a>
+            <a class="navbar-brand">New Phonebook Entry</a>
         </div>
     </nav>
 </header>
 
 <div class="container">
     <div mat-dialog-content>
-        <p>Phonebook Name</p>
+        <p>Entry Name</p>
         <mat-form-field>
             <mat-label>Name</mat-label>
-            <input matInput [(ngModel)]="data.BookName">
+            <input matInput [(ngModel)]="data.Name">
+        </mat-form-field>
+
+        <p>Phone Number</p>
+        <mat-form-field>
+            <mat-label>Number</mat-label>
+            <input matInput [(ngModel)]="data.PhoneNumber">
         </mat-form-field>
     </div>
     <div mat-dialog-actions>
         <button mat-button mat-raised-button (click)="onNoClick()">Close</button>
-        <button mat-button mat-raised-button color="primary" [mat-dialog-close]="data.BookName" cdkFocusInitial>Add</button>
+        <button mat-button mat-raised-button color="primary" [mat-dialog-close]="data" cdkFocusInitial>Add</button>
     </div>
 </div>

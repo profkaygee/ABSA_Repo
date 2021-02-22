@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace ABSA_Assessment.ViewModels
 {
     public class PhonebookViewModel
     {
-        public Guid PhoneBookId { get; set; }
+        public int PhoneBookId { get; set; }
         public string BookName { get; set; }
-        public  IList<PhonebookEntryViewModel> PhonebookEntries { get; set; }
+        public IList<PhonebookEntryViewModel> PhonebookEntries { get; set; }
     }
 }

@@ -1,11 +1,18 @@
-.center{
+.center {
     text-align: center;
 }
 
-.right{
+.right {
     text-align: right;
 }
 
 table {
     width: 100%;
-  }
+}
+
+.md-fab-bottom-right {
+    position: fixed !important;
+    right: 30px;
+    bottom: 30px;
+    /* Add this and change value to set the margin you want */
+}

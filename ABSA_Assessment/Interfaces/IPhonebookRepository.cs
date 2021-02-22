@@ -6,6 +6,6 @@ namespace ABSA_Assessment.Interfaces
     public interface IPhonebookRepository : IDisposable
     {
         MessageResponse AddPhonebook(PhonebookViewModel phonebook);
-        PhonebookViewModel SelectPhonebook(Guid phonebookId);
+        PhonebookViewModel SelectPhonebook(int? phonebookId);
     }
 }

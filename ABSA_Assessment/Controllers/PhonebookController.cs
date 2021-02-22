@@ -20,7 +20,7 @@ namespace ABSA_Assessment.Controllers
 
         [HttpGet]
         [Route("{phonebookId}")]
-        public IActionResult SelectPhonebook(Guid phonebookId)
+        public IActionResult SelectPhonebook(int? phonebookId)
         {
             var book = _phonebookRepository.SelectPhonebook(phonebookId);
             return Json(book);
@@ -28,15 +28,23 @@ namespace ABSA_Assessment.Controllers
 
         [HttpGet]
         [Route("Entries/{phonebookId}")]
-        public IActionResult SelectPhonebookEntries(Guid phonebookId)
+        public IActionResult SelectPhonebookEntries(int? phonebookId)
         {
             var entries = _entryRepository.SelectPhoneBookEntries(phonebookId);
             return Json(entries);
         }
 
+        [HttpGet]
+        [Route("Entries/Search/{phrase}")]
+        public IActionResult SelectSearchedEntries(string phrase)
+        {
+            var entries = _entryRepository.SelectSearchedEntries(phrase);
+            return Json(entries);
+        }
+
         [HttpPost]
         [Route("Books")]
-        public IActionResult AddPhonebook(PhonebookViewModel phonebook)
+        public IActionResult AddPhonebook([FromBody]PhonebookViewModel phonebook)
         {
             var message = _phonebookRepository.AddPhonebook(phonebook);
             return Json(message);
@@ -44,7 +52,7 @@ namespace ABSA_Assessment.Controllers
 
         [HttpPost]
         [Route("Entries")]
-        public IActionResult AddPhonebookEntry(PhonebookEntryViewModel entry)
+        public IActionResult AddPhonebookEntry([FromBody] PhonebookEntryViewModel entry)
         {
             var message = _entryRepository.AddPhonebookEntry(entry);
             return Json(message);

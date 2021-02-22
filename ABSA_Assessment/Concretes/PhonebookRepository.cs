@@ -1,11 +1,11 @@
 ﻿using ABSA_Assessment.Interfaces;
 using ABSA_Assessment.ViewModels;
+using Dapper;
+using Microsoft.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Data;
 using System.Linq;
-using Dapper;
-using Microsoft.Data.SqlClient;
 
 namespace ABSA_Assessment.Concretes
 {
@@ -26,14 +26,17 @@ namespace ABSA_Assessment.Concretes
             if (connection.State != ConnectionState.Open)
                 connection.Open();
 
-            int rowsAffected = connection.Query(query).FirstOrDefault();
+            var parameters = new { PhonebookName = phonebook.BookName };
 
-            if (rowsAffected > 0)
+            var rowsAffected = connection.Query(query, parameters, commandType: CommandType.StoredProcedure).FirstOrDefault();
+
+            if (rowsAffected.Rows > 0)
             {
-                return  new MessageResponse()
+                return new MessageResponse()
                 {
                     SuccessResponse = true,
-                    ErrorMessage = "Phone book has been added successfully."
+                    ErrorMessage = "Phone book has been added successfully.",
+                    NewId = Convert.ToInt32(rowsAffected.NewID)
                 };
             }
 
@@ -49,7 +52,7 @@ namespace ABSA_Assessment.Concretes
             GC.Collect();
         }
 
-        public PhonebookViewModel SelectPhonebook(Guid phonebookId)
+        public PhonebookViewModel SelectPhonebook(int? phonebookId)
         {
             var query = "procSelectPhonebook";
 

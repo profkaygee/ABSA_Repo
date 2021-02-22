@@ -1,5 +1,6 @@
 export class Entry {
-    position: number;
-    name: string;
-    phoneNumber: string;
+  PhoneEntryId: number;
+  Name: string;
+  PhoneNumber: string;
+  PhonebookId: number;
 }
