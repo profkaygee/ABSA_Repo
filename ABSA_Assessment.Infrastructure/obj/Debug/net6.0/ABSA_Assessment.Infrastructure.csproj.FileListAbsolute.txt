@@ -1,0 +1,11 @@
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Infrastructure\bin\Debug\net6.0\ABSA_Assessment.Infrastructure.deps.json
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Infrastructure\bin\Debug\net6.0\ABSA_Assessment.Infrastructure.dll
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Infrastructure\bin\Debug\net6.0\ref\ABSA_Assessment.Infrastructure.dll
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Infrastructure\bin\Debug\net6.0\ABSA_Assessment.Infrastructure.pdb
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Infrastructure\obj\Debug\net6.0\ABSA_Assessment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Infrastructure\obj\Debug\net6.0\ABSA_Assessment.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Infrastructure\obj\Debug\net6.0\ABSA_Assessment.Infrastructure.AssemblyInfo.cs
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Infrastructure\obj\Debug\net6.0\ABSA_Assessment.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Infrastructure\obj\Debug\net6.0\ABSA_Assessment.Infrastructure.dll
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Infrastructure\obj\Debug\net6.0\ref\ABSA_Assessment.Infrastructure.dll
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Infrastructure\obj\Debug\net6.0\ABSA_Assessment.Infrastructure.pdb

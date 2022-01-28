@@ -1,0 +1,13 @@
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.DataModels\bin\Debug\net6.0\ABSA_Assessment.DataModels.deps.json
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.DataModels\bin\Debug\net6.0\ABSA_Assessment.DataModels.runtimeconfig.json
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.DataModels\bin\Debug\net6.0\ABSA_Assessment.DataModels.dll
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.DataModels\bin\Debug\net6.0\ref\ABSA_Assessment.DataModels.dll
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.DataModels\bin\Debug\net6.0\ABSA_Assessment.DataModels.pdb
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.DataModels\obj\Debug\net6.0\ABSA_Assessment.DataModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.DataModels\obj\Debug\net6.0\ABSA_Assessment.DataModels.AssemblyInfoInputs.cache
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.DataModels\obj\Debug\net6.0\ABSA_Assessment.DataModels.AssemblyInfo.cs
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.DataModels\obj\Debug\net6.0\ABSA_Assessment.DataModels.csproj.CoreCompileInputs.cache
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.DataModels\obj\Debug\net6.0\ABSA_Assessment.DataModels.dll
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.DataModels\obj\Debug\net6.0\ref\ABSA_Assessment.DataModels.dll
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.DataModels\obj\Debug\net6.0\ABSA_Assessment.DataModels.pdb
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.DataModels\obj\Debug\net6.0\ABSA_Assessment.DataModels.genruntimeconfig.cache

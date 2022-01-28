@@ -1,5 +1,3 @@
-using ABSA_Assessment.Concretes;
-using ABSA_Assessment.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
@@ -32,9 +30,6 @@ namespace ABSA_Assessment
             {
                 c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             });
-
-            services.AddScoped<IPhonebookRepository, PhonebookRepository>();
-            services.AddScoped<IEntryRepository, EntryRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

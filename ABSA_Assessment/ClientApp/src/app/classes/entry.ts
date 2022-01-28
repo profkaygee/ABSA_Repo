@@ -1,6 +1,6 @@
 export class Entry {
-  PhoneEntryId: number;
-  Name: string;
-  PhoneNumber: string;
-  PhonebookId: number;
+  phoneEntryId: number;
+  name: string;
+  phoneNumber: string;
+  phonebookId: number;
 }

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="ABSA_Assessment.API.csproj" />
+    <None Include="ABSA_Assessment.API.csproj.user" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ABSA_Assessment.Application\ABSA_Assessment.Application.csproj" />
+    <ProjectReference Include="..\ABSA_Assessment.DataModels\ABSA_Assessment.DataModels.csproj" />
+    <ProjectReference Include="..\ABSA_Assessment.Infrastructure\ABSA_Assessment.Infrastructure.csproj" />
+    <ProjectReference Include="..\ABSA_Assessment.Mappings\ABSA_Assessment.Mappings.csproj" />
+  </ItemGroup>
+
+</Project>

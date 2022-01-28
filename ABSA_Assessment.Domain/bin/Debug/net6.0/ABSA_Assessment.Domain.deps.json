@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ABSA_Assessment.Domain/1.0.0": {
+        "runtime": {
+          "ABSA_Assessment.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ABSA_Assessment.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

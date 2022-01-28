@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0347f490-3a34-4869-8aa0-7478694b2af5": {
+      "ProjectGuid": "0347f490-3a34-4869-8aa0-7478694b2af5",
+      "DisplayName": "ABSA_Assessment",
+      "ColorIndex": 0
+    },
+    "4c6f9de1-add0-416c-ad6a-0d527873d607": {
+      "ProjectGuid": "4c6f9de1-add0-416c-ad6a-0d527873d607",
+      "DisplayName": "ABSA_Assessment.Core",
+      "ColorIndex": 1
+    },
+    "d2075689-3d78-4e1d-8f51-ec92879bd191": {
+      "ProjectGuid": "d2075689-3d78-4e1d-8f51-ec92879bd191",
+      "DisplayName": "ABSA_Assessment.Contracts",
+      "ColorIndex": 2
+    },
+    "de93271c-6fe4-48d0-a14c-10a0ee70bc42": {
+      "ProjectGuid": "de93271c-6fe4-48d0-a14c-10a0ee70bc42",
+      "DisplayName": "ABSA_Assessment.Domain",
+      "ColorIndex": 3
+    },
+    "a5bfefdd-8817-4085-bd4e-72fc34d689d4": {
+      "ProjectGuid": "a5bfefdd-8817-4085-bd4e-72fc34d689d4",
+      "DisplayName": "ABSA_Assessment.Infrastructure",
+      "ColorIndex": 4
+    },
+    "f2da6aee-3015-4f48-92af-39ba07afe6a2": {
+      "ProjectGuid": "f2da6aee-3015-4f48-92af-39ba07afe6a2",
+      "DisplayName": "ABSA_Assessment.Mappings",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}

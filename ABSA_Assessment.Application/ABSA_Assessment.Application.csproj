@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ABSA_Assessment.Contracts\ABSA_Assessment.Contracts.csproj" />
+    <ProjectReference Include="..\ABSA_Assessment.Core\ABSA_Assessment.Core.csproj" />
+    <ProjectReference Include="..\ABSA_Assessment.DataModels\ABSA_Assessment.DataModels.csproj" />
+  </ItemGroup>
+
+</Project>

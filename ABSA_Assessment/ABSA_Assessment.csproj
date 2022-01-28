@@ -30,16 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="ClientApp\.browserslistrc" />
-    <None Remove="ClientApp\src\app\add-phonebook\add-phonebook.component.css" />
-    <None Remove="ClientApp\src\app\add-phonebook\add-phonebook.component.html" />
-    <None Remove="ClientApp\src\app\add-phonebook\add-phonebook.component.spec.ts" />
-    <None Remove="ClientApp\src\app\add-phonebook\add-phonebook.component.ts" />
-    <None Remove="ClientApp\src\app\classes\entry.spec.ts" />
-    <None Remove="ClientApp\src\app\classes\entry.ts" />
-    <None Remove="ClientApp\src\app\classes\phonebook.spec.ts" />
-    <None Remove="ClientApp\src\app\classes\phonebook.ts" />
-    <None Remove="ClientApp\src\app\home\home.component.scss" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

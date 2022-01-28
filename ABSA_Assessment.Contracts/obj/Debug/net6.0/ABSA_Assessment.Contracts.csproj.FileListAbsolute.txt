@@ -1,0 +1,12 @@
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Contracts\bin\Debug\net6.0\ABSA_Assessment.Contracts.deps.json
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Contracts\bin\Debug\net6.0\ABSA_Assessment.Contracts.dll
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Contracts\bin\Debug\net6.0\ref\ABSA_Assessment.Contracts.dll
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Contracts\bin\Debug\net6.0\ABSA_Assessment.Contracts.pdb
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Contracts\obj\Debug\net6.0\ABSA_Assessment.Contracts.csproj.AssemblyReference.cache
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Contracts\obj\Debug\net6.0\ABSA_Assessment.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Contracts\obj\Debug\net6.0\ABSA_Assessment.Contracts.AssemblyInfoInputs.cache
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Contracts\obj\Debug\net6.0\ABSA_Assessment.Contracts.AssemblyInfo.cs
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Contracts\obj\Debug\net6.0\ABSA_Assessment.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Contracts\obj\Debug\net6.0\ABSA_Assessment.Contracts.dll
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Contracts\obj\Debug\net6.0\ref\ABSA_Assessment.Contracts.dll
+C:\Users\kagis\source\repos\ABSA_Assessment\ABSA_Assessment.Contracts\obj\Debug\net6.0\ABSA_Assessment.Contracts.pdb

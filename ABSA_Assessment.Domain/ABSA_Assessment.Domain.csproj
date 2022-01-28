@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Release\net5.0\ref\" />
+    <Folder Include="obj\Release\net5.0\ref\" />
+  </ItemGroup>
+
+</Project>
