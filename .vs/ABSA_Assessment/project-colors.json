@@ -30,7 +30,22 @@
       "ProjectGuid": "f2da6aee-3015-4f48-92af-39ba07afe6a2",
       "DisplayName": "ABSA_Assessment.Mappings",
       "ColorIndex": 5
+    },
+    "0c0c71d4-a236-444e-a25c-f64d368f1fc9": {
+      "ProjectGuid": "0c0c71d4-a236-444e-a25c-f64d368f1fc9",
+      "DisplayName": "ABSA_Assessment.DataModels",
+      "ColorIndex": 6
+    },
+    "79e8cae5-d940-4feb-942b-c7c06294ee5a": {
+      "ProjectGuid": "79e8cae5-d940-4feb-942b-c7c06294ee5a",
+      "DisplayName": "ABSA_Assessment.API",
+      "ColorIndex": 7
+    },
+    "245bcf53-711b-480c-b858-b53e80da200a": {
+      "ProjectGuid": "245bcf53-711b-480c-b858-b53e80da200a",
+      "DisplayName": "ABSA_Assessment.Application",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 9
 }

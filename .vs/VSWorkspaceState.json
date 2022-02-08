@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ABSA_Assessment.Core"
+    "\\ABSA_Assessment.Core",
+    "\\ABSA_Assessment.Mappings"
   ],
-  "SelectedNode": "\\ABSA_Assessment.Core\\Class1.cs",
+  "SelectedNode": "\\ABSA_Assessment.Mappings\\ConstantKeys.cs",
   "PreviewInSolutionExplorer": false
 }
